@@ -23,7 +23,7 @@
 
 ## 建模
 
-###1.需求量建模 Y=f(zipcode,hour,day of week,...)
+### 1.需求量建模 Y=f(zipcode,hour,day of week,...)
 估计单个小时单量比较稀疏，在文中提到“ we aggregated the number of trips every three hours for each zipcode”的做法，而且，除了区域编码、小时信息、工作日/周末信息之外，还是用了天气信息作为预估因素。
 
 虽然作者做了需求量建模的事情，但是在后期并没有使用。
